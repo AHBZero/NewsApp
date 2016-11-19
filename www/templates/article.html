@@ -1,0 +1,9 @@
+<ion-view view-title="News">
+  <ion-content onload="$scope.getSource()" onchange="$scope.getSource()" >
+    <ion-list>
+      <ion-item class="item-borderless" ng-repeat="a in articles">
+        <div><articleinfo article="a"></articleinfo></div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
